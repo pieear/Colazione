@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header h2 { 
+	position: absolute;
+    width: 667px;
+    height: 73px;
+    left: 387px;
+    top: 37px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: justify;
+    color: #EF9D49;
+}
+
+header h5 {
+    position: absolute;
+    width: 392px;
+    height: 24px;
+    left: 522px;
+    top: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #808080;
+
+}
+
+header hr {
+    position: absolute;
+    width: 802px;
+    height: 0px;
+    left: 320px;
+    top: 173px;
+    border: 1px solid #CCCCCC;
+}
+
+header a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #666666;
+}
+
+div.card1 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+div.card1 h3{
+    grid-column: 2/3;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #EF9D49; 
+}
+
+div.card1 p {
+    grid-column: 2/3;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+div.card1 img {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-top: 100px;
+    width: 786px;
+    height: 757px;
+    left: 439px;
+    top: 1038px;
+    float: right
+}
+
+div.card2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+div.card2 h3 {
+    grid-column: 2/3;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: justify;
+    color: #000000;
+}
+
+div.card2 p {
+    grid-column: 2/3;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+div.card2 img {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    width: 369px;
+    height: 786px;
+    left: 827px;
+    top: 1260px;
+}
+
+div.card3 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+div.card3 h3{
+    grid-column: 2/3;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: justify;
+    color: #000000;
+}
+
+div.card3 p{
+    grid-column: 3/4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+div.card3 img.salsiccia{
+    grid-column: 4/6;
+    width: 563px;
+    height: 181px;
+    left: 633px;
+    top: 2268px;
+}
+
+div.card3 img.pancake{
+    grid-column: 5/6;
+    width: 369px;
+    height: 585px;
+    left: 827px;
+    top: 2469px;
+}
+
+/*avevo già completato ma dopo la lezione di oggi mi sono resa conto che il metodo ce avevo utilizzato era errato, e questo pomeriggio ho provato a sistemare ma a causa delle tempistiche non ho anora finito, correggerò il prima possibile*/
